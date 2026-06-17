@@ -15,6 +15,7 @@
       body {
         background-image: url(./image/2752966-abstract-futuristic-technology-background-with-digital-number-timer-concept-and-countdown-vetor.jpg);
         background-size: cover;
+        background-position: center;
         font-family: "Poppins", sans-serif;
         text-align: center;
         margin-top: 50px;
@@ -37,6 +38,17 @@
         padding: 10px 20px;
         margin: 5px;
         cursor: pointer;
+      }
+
+      @media (max-width: 600px) {
+        #display {
+          font-size: 32px;
+          align-items: center;
+        }
+        button {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
       }
     </style>
   </head>
